@@ -1,7 +1,7 @@
 {
   "name": "vuesible",
   "version": "0.1.0",
-  "description": "Track Vue.js compements visibility during scroll.",
+  "description": "Track Vue.js components visibility during scroll.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

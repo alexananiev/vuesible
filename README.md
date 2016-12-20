@@ -1,8 +1,12 @@
-# Live demo
+# Vuesible
 
-https://alexananiev.com/vuesible
+Track Vue.js components visibility during scroll.
 
-# Instalation
+## Live demo
+
+https://alexananiev.com/vuesible (will be available soon)
+
+## Installation
 
 `npm install vuesible --save`
 
@@ -10,7 +14,11 @@ or
 
 `yarn add vuesible`
 
-# Using
+## Usage
+
+> This is a 'pilot' version. Naming, API, etc. might be changed dramatically in following versions.
+
+### Declaration
 
 ```javascript
 import Vuesible from 'vuesible'
@@ -23,7 +31,7 @@ export default {
 <my-component @appeared="doStuff()"/>
 ```
 
-# Events
+### Events
 
 Major
 
@@ -58,8 +66,3 @@ Major
   }
 }
 ``` -->
-
-
-# Disclaimer
-
-This is a 'pilot' version. Naming, API, etc. might be changed dramatically in following versions.
