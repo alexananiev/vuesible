@@ -15,7 +15,7 @@ getRect = (el)->
     bottom: offsetTop - window.pageYOffset + offsetHeight
   }
 
-module.exports =
+module.exports = ->
   mounted: ->
 
     prev = {
